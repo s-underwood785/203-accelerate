@@ -24,6 +24,10 @@ Text Domain:  accelerate-theme-child
 }
 
 /*FRONT PAGE BLOG POST STYLES*/
+.recent-posts {
+  overflow: hidden;
+}
+
 .blog-post {
 	width: 50%;
 	float: left;
@@ -46,4 +50,41 @@ Text Domain:  accelerate-theme-child
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+
+/* Case Study Styles */
+
+aside.case-study-sidebar {
+  float: left;
+  width: 300px;
+}
+
+div.case-study-images {
+  float:left;
+  width: 600px;
+}
+
+.case-study-sidebar h5 {
+  font-weight:normal;
+}
+
+
+/* Landing Page Styles */
+
+.featured-work {
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.featured-work h3{
+  padding-bottom: 30px;
+}
+
+.featured-work ul {
+  list-style: none;
+}
+
+.homepage-featured-work li {
+  display: inline-block;
 }
