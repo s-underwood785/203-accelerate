@@ -69,6 +69,13 @@ div.case-study-images {
   font-weight:normal;
 }
 
+.back-to-work-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+}
+
 
 /* Landing Page Styles */
 
@@ -87,4 +94,46 @@ div.case-study-images {
 
 .homepage-featured-work li {
   display: inline-block;
+  width: 30%;
+  margin-right: 2%;
+}
+
+
+/* Case Studies Archive */
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+
+.case-study-sidebar {
+  margin: 50px 20px 50px 20px;
+}
+
+.case-study-sidebar p a {
+  color: #45ac9d;
+}
+
+.case-study-images {
+  margin: 50px 10px 50px 10px;
+}
+
+
+/* Social Media Nav Styles */
+
+#menu-social-media-nav {
+text-align: right;
+}
+
+#menu-social-media-nav li {
+display: inline-block;
+list-style: none;
+background-color: #000;
+fill: #fff;
+height: 22px;
+width: 22px;
+border-radius: 50%;
+text-align: center;
+margin: 0 2px 0 2px;
 }

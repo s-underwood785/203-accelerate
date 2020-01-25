@@ -55,6 +55,9 @@ get_header(); ?>
 
 	</article>
 	<?php endwhile; // end of the loop. ?>
+    <div class="back-to-work-link">
+      <a href="<?php echo site_url('/case-studies/') ?>">&larr; Back to Work</a>
+    </div>
 	</div><!-- .main-content -->
 </div><!-- #primary -->
 
