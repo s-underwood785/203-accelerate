@@ -141,3 +141,54 @@ margin: 0 2px 0 2px;
 #menu-social-media-nav li a {
   color: #fff;
 }
+
+/* Contact Form Styles */
+
+ #primary {
+  display: flex;
+  justify-content: center;
+}
+
+#primary div.main-content {
+max-width: 700px;
+}
+
+/* div.nf-field-element input[type=text] {
+  background-color: #fff;
+} */
+
+span {
+  display: none;
+}
+
+div.nf-before-form-content {
+  visibility: hidden;
+}
+
+#nf-field-1-container {
+  max-width: 45%;
+  float:left;
+}
+
+ div.nf-field-element input[type=text] {
+  background-color: #fff;
+}
+
+div.nf-field-element input[type=email] {
+  background-color: #fff;
+}
+
+div.nf-field-element textarea {
+  background-color: #fff;
+}
+
+#nf-field-2-container {
+max-width: 45%;
+float: right;
+}
+
+div.nf-field-element input[type=button] {
+  background-color: #45ac9d;
+  width: 30%;
+  float: right;
+}
