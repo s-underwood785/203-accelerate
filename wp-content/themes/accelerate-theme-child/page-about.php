@@ -33,7 +33,7 @@ get_header(); ?>
       <?php $iconfirst = 'yes'; ?>
       <?php query_posts('post_type=services'); ?>
       <?php while (have_posts()) : the_post();
-        $icon = get_field("icon");
+        $icon = get_field('icon');
         $size = "thumbnail";
       ?>
 
