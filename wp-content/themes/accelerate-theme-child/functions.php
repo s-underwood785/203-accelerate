@@ -30,7 +30,22 @@ function create_custom_post_types() {
              'rewrite' => array( 'slug' => 'case-studies' ),
          )
      );
+
+		 register_post_type( 'services',
+        array(
+            'labels' => array(
+                'name' => __( 'Services' ),
+                'singular_name' => __( 'Service' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'services' ),
+        )
+    );
+
 }
+
+
 
 // Hook this custom post type funciton into the theme
 add_action( 'init', 'create_custom_post_types' );

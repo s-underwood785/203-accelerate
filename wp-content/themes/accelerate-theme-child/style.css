@@ -15,6 +15,7 @@ Text Domain:  accelerate-theme-child
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
+
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;
 }
@@ -22,6 +23,8 @@ Text Domain:  accelerate-theme-child
 .button {
      background: none repeat scroll 0 0 #45ac9d;
 }
+
+
 
 /*FRONT PAGE BLOG POST STYLES*/
 .recent-posts {
@@ -144,14 +147,6 @@ margin: 0 2px 0 2px;
 
 /* Contact Form Styles */
 
- #primary {
-  display: flex;
-  justify-content: center;
-}
-
-#primary div.main-content {
-max-width: 700px;
-}
 
 /* div.nf-field-element input[type=text] {
   background-color: #fff;
@@ -166,8 +161,9 @@ div.nf-before-form-content {
 }
 
 #nf-field-1-container {
-  max-width: 45%;
+  width: 48%;
   float:left;
+  clear: initial;
 }
 
  div.nf-field-element input[type=text] {
@@ -183,8 +179,9 @@ div.nf-field-element textarea {
 }
 
 #nf-field-2-container {
-max-width: 45%;
+width: 48%;
 float: right;
+clear: initial;
 }
 
 div.nf-field-element input[type=button] {
