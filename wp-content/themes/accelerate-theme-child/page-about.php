@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="home-page hero-content">
+	<div id="about-primary" class="home-page hero-content">
 		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php the_content(); ?>
@@ -34,7 +34,7 @@ get_header(); ?>
       <?php query_posts('post_type=services'); ?>
       <?php while (have_posts()) : the_post();
         $icon = get_field('icon');
-        $size = "thumbnail";
+        $size = "medium";
       ?>
 
      <?php

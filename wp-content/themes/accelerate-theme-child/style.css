@@ -189,3 +189,84 @@ div.nf-field-element input[type=button] {
   width: 30%;
   float: right;
 }
+
+/* ABOUT PAGE STYLES */
+
+#about-primary {
+  display: flex;
+  justify-content: center;
+}
+
+#about-primary div.main-content {
+  max-width: 700px;
+  text-align: center;
+}
+
+#about-primary div.main-content p{
+  font-size: 1.875em;
+  color: #fff;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.about-container h2 {
+  margin-top: 0;
+}
+
+.about-container h3 {
+  font-size: 1.5em;
+}
+
+.about-container p{
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.about-container .about-service-into {
+  text-align: center;
+}
+
+.about-icon-first-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+}
+
+.about-icon-left {
+  width: 20%;
+}
+
+.about-content-right {
+  width: 60%;
+}
+
+.about-icon-first-section p{
+  text-align: left;
+}
+
+.about-desc-first-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+}
+
+.about-icon-right {
+  width: 20%;
+}
+
+.about-content-left {
+  width: 60%;
+}
+
+.about-desc-first-section p {
+  text-align: left;
+}
