@@ -62,11 +62,18 @@ get_header(); ?>
        </div>
      <?php } ?>
 
-   <?php endwhile; ?>
+    <?php endwhile; ?>
 
-   <?php wp_reset_query(); ?>
-
-  </div>
-</section>
+    <?php wp_reset_query(); ?>
+      <div class="contact-button-section">
+        <div class="button-header">
+          <h2>Interested in working with us?</h2>
+        </div>
+        <div class="contact-button">
+          <input type="button" value="Contact Us">
+        </div>
+      </div>
+    </div>
+  </section>
 
 <?php get_footer(); ?>
