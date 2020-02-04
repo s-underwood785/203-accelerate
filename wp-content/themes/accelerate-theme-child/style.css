@@ -48,6 +48,10 @@ Text Domain:  accelerate-theme-child
 	font-size: 1.5em;
 }
 
+.entry-summary span {
+  display: contents;
+}
+
 .read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
@@ -275,7 +279,7 @@ div.nf-field-element input[type=button] {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 63%;
   padding-top: 50px;
   border-top: 1px solid #bfbfbf;
   min-height: 150px;
@@ -292,4 +296,48 @@ div.nf-field-element input[type=button] {
 input[type=button] {
   background-color: #45ac9d;
   min-height: 50px;
+}
+
+/* 404 PAGE STYLES */
+
+.error-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.error-screen-image {
+  width: 20%;
+  margin-right: 30px;
+}
+
+.error-screen-message {
+  width: 40%;
+  margin-left: 30px;
+}
+
+.error-screen-message h2 {
+  color: #45ac9d;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+  font-family: 'Londrina Solid', cursive;
+}
+
+.error-screen-message p {
+  font-size: 1.25em;
+}
+
+.error-screen-message a {
+  color: #45ac9d;
+  font-weight: bold;
+}
+
+/* SIGNUP FORM STYLES */
+
+input[type=submit] {
+    color: #fff!important;
+    background-color: #45ac9d!important;
+    border-color: #1e1e1e;
+    padding: 10px 10px;
 }

@@ -70,7 +70,7 @@ get_header(); ?>
           <h2>Interested in working with us?</h2>
         </div>
         <div class="contact-button">
-          <input type="button" value="Contact Us">
+          <a class="button" href="<?php echo site_url('/contact/') ?>">Contact Us</a>
         </div>
       </div>
     </div>
