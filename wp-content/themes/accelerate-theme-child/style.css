@@ -29,6 +29,7 @@ Text Domain:  accelerate-theme-child
 /*FRONT PAGE BLOG POST STYLES*/
 .recent-posts {
   overflow: hidden;
+  margin-top: 100px;
 }
 
 .blog-post {
@@ -58,6 +59,31 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+.read-more-link span {
+  display:contents;
+}
+
+
+/* FRONT PAGE TWITTER SIDEBAR STYLES */
+
+ div.widget-area {
+   width: 40%;
+   float: right;
+ }
+
+ h3.widget-title {
+   font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+ }
+
+ #secondary p a {
+   font-family: 'Montserrat';
+ 	font-weight: 700;
+ 	color: #45ac9d;
+ 	text-transform: uppercase;
+ }
 
 
 /* Case Study Styles */
