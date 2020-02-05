@@ -58,6 +58,7 @@ get_header(); ?>
   		</div>
 			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 				<div id="secondary" class="widget-area" role="complementary">
+					<h4>Recent Tweets</h4>
 					<?php dynamic_sidebar( 'sidebar-2' ); ?>
 					<p><a href="https://twitter.com/skillcrush">Follow Us</a></p>
 				</div>
